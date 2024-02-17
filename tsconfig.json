@@ -15,7 +15,9 @@
     "jsx": "react-jsx",
 
     /* Linting */
-    "strict": true,
+    // strict: false, żeby nie przeszkadzało knurowym javascriptowcom
+    // jeśli to czytasz i jesteś prawdzimym SIGMA, to ustaw strict: true
+    "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
