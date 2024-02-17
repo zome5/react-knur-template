@@ -9,6 +9,11 @@ Startowe repozytorium wraz z gotową konfiguracją.
 3. Zainstaluj zależności `pnpm install`
 4. Pobierz następujące wtyczki do vscode: `Prettier - Code formatter` oraz `ESLint` (dzięki temu w edytorze widać błędy, oraz działa formatowanie "on save").
 
-Aby odpalić server developerski użyj komendy `pnpm run dev`
-
 Zalecana jest też wtyczka do chrome dodająca narzędzia developerkie: https://react.dev/learn/react-developer-tools
+
+## Komendy:
+
+- `pnpm install` - instaluje zależności (potrzeba to zrobić tylko raz na początku)
+- `pnpm run dev` - odpala server developerski
+- `pnpm run test` - odpala testy
+- `pnpm run test-ui` - odpala testy + UI dashboard w przeglądarce
