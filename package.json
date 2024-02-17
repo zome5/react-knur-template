@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
-    "test-ui": "--ui --api 9527"
+    "test-ui": "vitest --ui --api 9527"
   },
   "dependencies": {
     "react": "^18.2.0",
