@@ -1,0 +1,18 @@
+:root {
+  background-color: #020617;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+h1,
+p {
+  color: #86efac;
+}
