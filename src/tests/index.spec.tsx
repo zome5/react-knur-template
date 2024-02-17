@@ -24,7 +24,6 @@ describe("sayHello", () => {
 describe("App", () => {
   test("renders title", () => {
     render(<App />);
-
     screen.getByText("KNUR + REACT");
   });
 
