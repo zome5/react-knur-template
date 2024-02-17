@@ -16,5 +16,9 @@ export default defineConfig({
       "**/cypress/**",
       "**/.{idea,git,cache,output,temp}/**",
     ],
+
+    globals: true,
+    environment: "jsdom",
+    setupFiles: "./src/tests/setup.ts",
   },
 });

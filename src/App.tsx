@@ -1,11 +1,11 @@
-import React from "react";
+import { Button } from "./components/button/Button";
 import "./index.css";
 
 function App() {
   return (
     <>
-      <Foo />
-      <h1>KNUR + REACT</h1>;
+      <h1>KNUR + REACT</h1>
+      <Button name="click!" />
     </>
   );
 }
