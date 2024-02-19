@@ -13,7 +13,7 @@ export const Zadanie1 = () => {
 
   return (
     <>
-      <hr></hr>
+      <hr/>
       <h2>Zadanie1</h2>
       <Button licznik={licznik} click={() => setLicznik(licznik + 1)}></Button>
     </>

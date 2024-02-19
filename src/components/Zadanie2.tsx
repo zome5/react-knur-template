@@ -16,7 +16,8 @@ export const Zadanie2 = () => {
 
   return (
     <>
-      <hr></hr>
+      <hr/>
+
       <h2>Zadanie2</h2>
       <input
         value={mujInput}

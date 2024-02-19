@@ -1,11 +1,12 @@
+
 export const Tabela = (dane: any) => {
-  const mojeDane = dane.dane.dane;
   return (
     <>
       <p>Tabela</p>
       <table>
         <thead>
-          {mojeDane.map((obiekt, i) => {
+          {
+          dane.dane.map((obiekt, i) => {
             return (
               <tr key={"papaj" + i}>
                 <th>{obiekt.nazwa}</th>
@@ -18,6 +19,6 @@ export const Tabela = (dane: any) => {
           })}
         </thead>
       </table>
-    </>
+      </>
   );
 };
