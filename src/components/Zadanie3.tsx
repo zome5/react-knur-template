@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Tabela } from "./knur_components/Tabela";
+import { Tabela } from "./Tabela";
 
 export const Zadanie3 = (dane) => {
   const [mojeDane, setMojeDane] = useState(dane.dane);

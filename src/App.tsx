@@ -2,6 +2,7 @@ import { Zadanie1 } from "./components/Zadanie1";
 import { Zadanie2 } from "./components/Zadanie2";
 import { Zadanie3 } from "./components/Zadanie3";
 import { Zadanie5 } from "./components/Zadanie5";
+import "./index.css";
 
 
 function App() {

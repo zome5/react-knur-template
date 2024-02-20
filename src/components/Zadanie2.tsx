@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 export const Zadanie2 = () => {
   const [mujInput, setMujInput] = useState("");
   const [obrazek, setObrazek] = useState("");
-  console.log(mujInput);
   useEffect((): any => {
     if (mujInput === "papiez") {
       setObrazek(
