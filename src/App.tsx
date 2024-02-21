@@ -20,7 +20,7 @@ function App() {
         "https://th.bing.com/th/id/OIP.1LS1c8RksgOUsGVk2yXEsQAAAA?w=139&h=150&c=7&r=0&o=5&pid=1.7",
     },
     {
-      nazwa: "Jaweł",
+      nazwa: "Jawel",
       wiek: 103,
       obrazek:
         "https://th.bing.com/th/id/OIP.ZGHT3JC497thIrbjaDIR0AHaJJ?w=135&h=180&c=7&r=0&o=5&pid=1.7",
